@@ -32,4 +32,3 @@ WHERE e.first_name = 'Jim' AND e.last_name = 'Halpert';
 
 1. Run `company.sql` in your MySQL / MariaDB environment.
 2. Execute queries to practice **joins, foreign keys, subqueries, aggregation, and constraints**.
-```
