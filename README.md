@@ -1,4 +1,3 @@
-````markdown
 # 🛢️ Company Database Schema
 
 This project contains a sample **company database** built for practicing **SQL and DBMS concepts**.  
@@ -27,18 +26,10 @@ SELECT SUM(total_sales) AS total_sales
 FROM works_with w
 JOIN employee e ON w.emp_id = e.emp_id
 WHERE e.first_name = 'Jim' AND e.last_name = 'Halpert';
-````
 
+```
 ## 🚀 Usage
 
 1. Run `company.sql` in your MySQL / MariaDB environment.
 2. Execute queries to practice **joins, foreign keys, subqueries, aggregation, and constraints**.
-
----
-
-✍️ Created for DBMS interview preparation and SQL practice.
-
-```
-
-Would you like me to also make a **root README** (for the full repo in case you add more schemas later), or just keep this one inside the `company-db` folder for now?
 ```
